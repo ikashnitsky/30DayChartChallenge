@@ -150,7 +150,7 @@ ggdraw()+
         hjust = 0, vjust = 0, size = 3
     )+
     # inset the two plots
-    draw_plot(one, x = .05, width = .4, y = .1, height = .7)+
+    draw_plot(one, x = .05, width = .4, y = .1, height = .6)+
     draw_plot(two, x = .55, width = .4, y = .1, height = .5)
 
 out <- last_plot()

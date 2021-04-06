@@ -114,9 +114,9 @@ df_h %>%
 
 two <- last_plot()
 
-# assamble the put plot
+# assemble the put plot
 ggdraw()+
-    # grid
+    # grid (note the ratio is defined by the export size below in ggsave)
     geom_hline(yintercept = seq(0, 1, 0.0675), color = 8, size = .1)+
     geom_vline(xintercept = seq(0, 1, .05), color = 8, size = .1)+
     # title

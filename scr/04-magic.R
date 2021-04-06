@@ -78,7 +78,8 @@ df_v %>%
         axis.text.x = element_text(angle = 90, hjust = 1),
         axis.text.y = element_blank(),
         axis.ticks = element_blank(),
-        text = element_text(family = "Caveat")
+        text = element_text(family = "Caveat"),
+        plot.background = element_blank()
     )+
     labs(
         x = NULL,
@@ -107,13 +108,17 @@ df_h %>%
         axis.text.x = element_blank(),
         axis.title.y = element_text(size = 20, color = 1),
         axis.ticks = element_blank(),
-        text = element_text(family = "Caveat", color = 1)
+        text = element_text(family = "Caveat", color = 1),
+        plot.background = element_blank()
     )
 
 two <- last_plot()
 
 # assamble the put plot
 ggdraw()+
+    # grid
+    geom_hline(yintercept = seq(0, 1, 0.0675), color = 8, size = .1)+
+    geom_vline(xintercept = seq(0, 1, .05), color = 8, size = .1)+
     # title
     annotate(
         "text", x = .5, y = .98,

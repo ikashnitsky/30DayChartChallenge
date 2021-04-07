@@ -27,7 +27,7 @@ library(tweetrmd)
 
 ## Day 1 
 
-2021-04-01 | part-to-whole
+2021-04-01 | part-to-whole | [code](/src/01-part-to-whole-top100altmetric.R)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1377641808998625280"), theme = "dark")
@@ -38,47 +38,47 @@ tweet_screenshot(tweet_url("ikashnitsky", "1377641808998625280"), theme = "dark"
 
 2021-04-02 | pictogram
 
-```{r}
+```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1378099699698262017"), theme = "dark")
 ```
 
 
 ## Day 3 
 
-2021-04-03 | historical
+2021-04-03 | historical | [code](https://github.com/OxfordDemSci/ex2020)
 
-```{r}
+```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1378251035144245250"), theme = "dark")
 ```
 
 
 ## Day 4 
 
-2021-04-04 | magical
+2021-04-04 | magical | [code](/src/04-magic.R)
 
-```{r}
+```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1378673154730647555"), theme = "dark")
 ```
 
-```{r}
+```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1379398990266048512"), theme = "dark")
 ```
 
 
 ## Day 5 
 
-2021-04-05 | slope
+2021-04-05 | slope | [code](/src/05-slope-best-life-expectancy.R)
 
-```{r}
+```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1379025851317161985"), theme = "dark")
 ```
 
 
 ## Day 6 
 
-2021-04-06 | experimental
+2021-04-06 | experimental | [code](/scr/06-experiment.R)
 
-```{r}
+```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1379316226267156481"), theme = "dark")
 ```
 
@@ -98,7 +98,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1379696769211195394"), theme = "dark"
 
 
 
-```{r index, include=FALSE}
+```{r index, echo=FALSE}
 library(fs)
 file_copy(path = "README.md", new_path = "index.md", overwrite = TRUE)
 ```

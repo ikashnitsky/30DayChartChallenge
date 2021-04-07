@@ -1,5 +1,13 @@
-30DayChartChallenge – daily contributions to the challenge
-================
+---
+title: "30DayChartChallenge -- daily contributions to the challenge"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tweetrmd)
+```
+
 
 # The structure of the challenge
 
@@ -14,77 +22,69 @@
 | [Day 5](#day-5) | [Day 11](#day-11) | [Day 17](#day-17) | [Day 23](#day-23) | [Day 29](#day-29) |
 | [Day 6](#day-6) | [Day 12](#day-12) | [Day 18](#day-18) | [Day 24](#day-24) | [Day 30](#day-30) |
 
+
 # comparisons
 
-## Day 1
+## Day 1 
 
-2021-04-01 \| part-to-whole
+2021-04-01 | part-to-whole
 
-``` r
+```{r}
 tweet_screenshot(tweet_url("ikashnitsky", "1377641808998625280"), 
                  theme = "dark", link_color = "#009999")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
-## Day 2
+## Day 2 
 
-2021-04-02 \| pictogram
+2021-04-02 | pictogram
 
-``` r
+```{r}
 tweet_screenshot(tweet_url("ikashnitsky", "1378099699698262017"), 
                  theme = "dark", link_color = "#009999")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
-## Day 3
+## Day 3 
 
-2021-04-03 \| historical
+2021-04-03 | historical
 
-``` r
+```{r}
 tweet_screenshot(tweet_url("ikashnitsky", "1378251035144245250"), 
                  theme = "dark", link_color = "#009999")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-## Day 4
+## Day 4 
 
-2021-04-04 \| magical
+2021-04-04 | magical
 
-``` r
+```{r}
 tweet_screenshot(tweet_url("ikashnitsky", "1378673154730647555"), 
                  theme = "dark", link_color = "#009999")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
-
-``` r
+```{r}
 tweet_screenshot(tweet_url("ikashnitsky", "1379398990266048512"), 
                  theme = "dark", link_color = "#009999")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
-## Day 5
+## Day 5 
 
-2021-04-05 \| slope
+2021-04-05 | slope
 
-``` r
+```{r}
 tweet_screenshot(tweet_url("ikashnitsky", "1379025851317161985"), 
                  theme = "dark", link_color = "#009999")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
-## Day 6
+## Day 6 
 
-2021-04-06 \| experimental
+2021-04-06 | experimental
 
-``` r
+```{r}
 tweet_screenshot(tweet_url("ikashnitsky", "1379316226267156481"), 
                  theme = "dark", link_color = "#009999")
 ```
-
-![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->

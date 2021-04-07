@@ -1,5 +1,5 @@
 ---
-title: "30DayChartChallenge -- Ilya Kashnitsky -- daily contributions to the challenge"
+title: ""
 output: github_document
 ---
 

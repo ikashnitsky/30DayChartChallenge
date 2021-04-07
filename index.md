@@ -1,6 +1,3 @@
-30DayChartChallenge – Ilya Kashnitsky – daily contributions to the
-challenge
-================
 
 # The structure of the challenge
 

@@ -1,4 +1,5 @@
-30DayChartChallenge – daily contributions to the challenge
+30DayChartChallenge – Ilya Kashnitsky – daily contributions to the
+challenge
 ================
 
 # The structure of the challenge
@@ -20,11 +21,6 @@
 
 2021-04-01 \| part-to-whole
 
-``` r
-tweet_screenshot(tweet_url("ikashnitsky", "1377641808998625280"), 
-                 theme = "dark", link_color = "#009999")
-```
-
 ![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ## Day 2
@@ -32,8 +28,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1377641808998625280"),
 2021-04-02 \| pictogram
 
 ``` r
-tweet_screenshot(tweet_url("ikashnitsky", "1378099699698262017"), 
-                 theme = "dark", link_color = "#009999")
+tweet_screenshot(tweet_url("ikashnitsky", "1378099699698262017"), theme = "dark")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
@@ -43,8 +38,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1378099699698262017"),
 2021-04-03 \| historical
 
 ``` r
-tweet_screenshot(tweet_url("ikashnitsky", "1378251035144245250"), 
-                 theme = "dark", link_color = "#009999")
+tweet_screenshot(tweet_url("ikashnitsky", "1378251035144245250"), theme = "dark")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
@@ -54,15 +48,13 @@ tweet_screenshot(tweet_url("ikashnitsky", "1378251035144245250"),
 2021-04-04 \| magical
 
 ``` r
-tweet_screenshot(tweet_url("ikashnitsky", "1378673154730647555"), 
-                 theme = "dark", link_color = "#009999")
+tweet_screenshot(tweet_url("ikashnitsky", "1378673154730647555"), theme = "dark")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 ``` r
-tweet_screenshot(tweet_url("ikashnitsky", "1379398990266048512"), 
-                 theme = "dark", link_color = "#009999")
+tweet_screenshot(tweet_url("ikashnitsky", "1379398990266048512"), theme = "dark")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
@@ -72,8 +64,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1379398990266048512"),
 2021-04-05 \| slope
 
 ``` r
-tweet_screenshot(tweet_url("ikashnitsky", "1379025851317161985"), 
-                 theme = "dark", link_color = "#009999")
+tweet_screenshot(tweet_url("ikashnitsky", "1379025851317161985"), theme = "dark")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
@@ -83,8 +74,15 @@ tweet_screenshot(tweet_url("ikashnitsky", "1379025851317161985"),
 2021-04-06 \| experimental
 
 ``` r
-tweet_screenshot(tweet_url("ikashnitsky", "1379316226267156481"), 
-                 theme = "dark", link_color = "#009999")
+tweet_screenshot(tweet_url("ikashnitsky", "1379316226267156481"), theme = "dark")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
+# distributions
+
+## Day 7
+
+2021-04-07 \| physical
+
+![](README_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->

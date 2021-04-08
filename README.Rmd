@@ -27,7 +27,7 @@ library(tweetrmd)
 
 ## Day 1 
 
-2021-04-01 | part-to-whole | [code](/src/01-part-to-whole-top100altmetric.R)
+2021-04-01 | part-to-whole | [tweet](https://twitter.com/ikashnitsky/status/1377641808998625280) | [code](/src/01-part-to-whole-top100altmetric.R)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1377641808998625280"), theme = "dark")
@@ -36,7 +36,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1377641808998625280"), theme = "dark"
 
 ## Day 2 
 
-2021-04-02 | pictogram
+2021-04-02 | pictogram | [tweet](https://twitter.com/ikashnitsky/status/1378099699698262017)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1378099699698262017"), theme = "dark")
@@ -45,7 +45,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1378099699698262017"), theme = "dark"
 
 ## Day 3 
 
-2021-04-03 | historical | [code](https://github.com/OxfordDemSci/ex2020)
+2021-04-03 | historical | [tweet](https://twitter.com/ikashnitsky/status/1378251035144245250) | [code](https://github.com/OxfordDemSci/ex2020)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1378251035144245250"), theme = "dark")
@@ -54,7 +54,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1378251035144245250"), theme = "dark"
 
 ## Day 4 
 
-2021-04-04 | magical | [code](/src/04-magic.R)
+2021-04-04 | magical | [tweet-1](https://twitter.com/ikashnitsky/status/1378673154730647555) | [tweet-2](https://twitter.com/ikashnitsky/status/1379398990266048512) | [code](/src/04-magic.R)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1378673154730647555"), theme = "dark")
@@ -67,7 +67,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1379398990266048512"), theme = "dark"
 
 ## Day 5 
 
-2021-04-05 | slope | [code](/src/05-slope-best-life-expectancy.R)
+2021-04-05 | slope | [tweet](https://twitter.com/ikashnitsky/status/1379025851317161985) | [code](/src/05-slope-best-life-expectancy.R)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1379025851317161985"), theme = "dark")
@@ -76,7 +76,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1379025851317161985"), theme = "dark"
 
 ## Day 6 
 
-2021-04-06 | experimental | [code](/scr/06-experiment.R)
+2021-04-06 | experimental | [tweet](https://twitter.com/ikashnitsky/status/1379316226267156481) | [code](/scr/06-experiment.R)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1379316226267156481"), theme = "dark")
@@ -88,7 +88,7 @@ tweet_screenshot(tweet_url("ikashnitsky", "1379316226267156481"), theme = "dark"
 
 ## Day 7 
 
-2021-04-07 | physical
+2021-04-07 | physical | [tweet](https://twitter.com/ikashnitsky/status/1379696769211195394)
 
 ```{r, echo=FALSE}
 tweet_screenshot(tweet_url("ikashnitsky", "1379696769211195394"), theme = "dark")
@@ -97,7 +97,13 @@ tweet_screenshot(tweet_url("ikashnitsky", "1379696769211195394"), theme = "dark"
 
 ## Day 8 
 
-2021-04-08 | animals
+2021-04-08 | animals | [tweet](https://twitter.com/ikashnitsky/status/1380063567735574528) | [code](/scr/08-animal-milk.R)
+
+
+```{r, echo=FALSE}
+tweet_screenshot(tweet_url("ikashnitsky", "1380063567735574528"), theme = "dark")
+```
+
 
 ## Day 9
 

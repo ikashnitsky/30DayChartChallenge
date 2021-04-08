@@ -17,26 +17,32 @@
 ## Day 1
 
 2021-04-01 \| part-to-whole \|
+[tweet](https://twitter.com/ikashnitsky/status/1377641808998625280) \|
 [code](/src/01-part-to-whole-top100altmetric.R)
 
 ![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ## Day 2
 
-2021-04-02 \| pictogram
+2021-04-02 \| pictogram \|
+[tweet](https://twitter.com/ikashnitsky/status/1378099699698262017)
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 ## Day 3
 
 2021-04-03 \| historical \|
+[tweet](https://twitter.com/ikashnitsky/status/1378251035144245250) \|
 [code](https://github.com/OxfordDemSci/ex2020)
 
 ![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 ## Day 4
 
-2021-04-04 \| magical \| [code](/src/04-magic.R)
+2021-04-04 \| magical \|
+[tweet-1](https://twitter.com/ikashnitsky/status/1378673154730647555) \|
+[tweet-2](https://twitter.com/ikashnitsky/status/1379398990266048512) \|
+[code](/src/04-magic.R)
 
 ![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
@@ -44,13 +50,17 @@
 
 ## Day 5
 
-2021-04-05 \| slope \| [code](/src/05-slope-best-life-expectancy.R)
+2021-04-05 \| slope \|
+[tweet](https://twitter.com/ikashnitsky/status/1379025851317161985) \|
+[code](/src/05-slope-best-life-expectancy.R)
 
 ![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ## Day 6
 
-2021-04-06 \| experimental \| [code](/scr/06-experiment.R)
+2021-04-06 \| experimental \|
+[tweet](https://twitter.com/ikashnitsky/status/1379316226267156481) \|
+[code](/scr/06-experiment.R)
 
 ![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
@@ -58,13 +68,18 @@
 
 ## Day 7
 
-2021-04-07 \| physical
+2021-04-07 \| physical \|
+[tweet](https://twitter.com/ikashnitsky/status/1379696769211195394)
 
 ![](README_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ## Day 8
 
-2021-04-08 \| animals
+2021-04-08 \| animals \|
+[tweet](https://twitter.com/ikashnitsky/status/1380063567735574528) \|
+[code](/scr/08-animal-milk.R)
+
+![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 ## Day 9
 

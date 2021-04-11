@@ -83,15 +83,27 @@
 
 ## Day 9
 
-2021-04-09 \| statistics
+2021-04-09 \| statistics \|
+[tweet](https://twitter.com/ikashnitsky/status/1380612409455476742) \|
+[code](https://gist.github.com/ikashnitsky/654965cb971f3a11928806c4d0a0ef23)
+
+![](README_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ## Day 10
 
-2021-04-10 \| abstract
+2021-04-10 \| abstract \|
+[tweet](https://twitter.com/ikashnitsky/status/1380844964456849409) \|
+[code](/scr/10-abstract.R)
+
+![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ## Day 11
 
-2021-04-11 \| circular
+2021-04-11 \| circular \|
+[tweet](https://twitter.com/ikashnitsky/status/1381356371657039874) \|
+[code](/scr/11-circular-random-bubbles.R)
+
+![](README_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 ## Day 12
 

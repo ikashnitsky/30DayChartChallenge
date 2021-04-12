@@ -141,7 +141,15 @@ tweet_screenshot(tweet_url("ikashnitsky", "1381356371657039874"), theme = "dark"
 
 ## Day 12
 
-2021-04-12 | strips
+2021-04-12 | strips | [tweet](https://twitter.com/ikashnitsky/status/1381563608270790656) | [code](/scr/12-stripes-altmetric.R)
+
+
+```{r, echo=FALSE}
+tweet_screenshot(tweet_url("ikashnitsky", "1381563608270790656"), theme = "dark")
+```
+
+
+
 
 
 # relationships

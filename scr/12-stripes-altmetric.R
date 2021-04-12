@@ -8,10 +8,16 @@ library(tidyverse)
 library(magrittr)
 library(lubridate)
 library(hrbrthemes)
+library(RColorBrewer)
+library(janitor)
 
-# Start dates
+# Possibly intyeresting start dates
 # January 1, 1983 -- internet born
 # March 21, 2006 -- Twitter launched
+
+
+# beware, the raw dataset weights more than 0.5GB
+# thus the code will be only replicable after the load() back data
 
 df <- read_csv("~/data/altmertic/all-altmetric-2021-04-12.csv") %>%
     janitor::clean_names()
@@ -34,11 +40,17 @@ monthly <- df %>%
     ) %>%
     ungroup()
 
+
+save(monthly, file = "dat/12-monthly-attention.rda")
+
+# laad back -- if replicating, start from here
+load("dat/12-monthly-attention.rda")
+
 # palette
 # https://dominicroye.github.io/en/2018/how-to-create-warming-stripes-in-r/
-col_strip <- RColorBrewer::brewer.pal(11, "RdBu")
+col_strip <- brewer.pal(11, "RdBu")
 
-
+# plot
 monthly %>%
     filter(
         year > 2005 &  year < 2022,

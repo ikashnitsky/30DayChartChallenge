@@ -107,7 +107,11 @@
 
 ## Day 12
 
-2021-04-12 \| strips
+2021-04-12 \| strips \|
+[tweet](https://twitter.com/ikashnitsky/status/1381563608270790656) \|
+[code](/scr/12-stripes-altmetric.R)
+
+![](README_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
 # relationships
 

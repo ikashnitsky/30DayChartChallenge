@@ -139,4 +139,3 @@ dev.off()
 #     "out/18-connections-twitter.png",
 #     width = 4, height = 7, type = "cairo-png"
 # )
-

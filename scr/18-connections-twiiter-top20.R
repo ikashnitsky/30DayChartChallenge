@@ -121,7 +121,7 @@ top20follow %>%
         # x = "Person is followed",
         x = NULL, y = NULL,
         title = "Do top 20 followed persons on<br>Twitter <span style = 'color:#dfcd00;'>follow</span> each other?",
-        subtitle = "<br>Follows can be asymmetric.<br><br><span style = 'color:#dfcd00;'>Rows</span> represent the <span style = 'color:#dfcd00;'>source</span> of the follow:<br>reading the matrix per row shows who<br>the person follows.<br><br><span style = 'color:#08a0e9;'>Columns</span> are <span style = 'color:#08a0e9;'>target</span> of the follow:<br>read vertically to see by who among<br>the top-20 the index person in followed.<br><br>Numbers on the diagonal show the total<br>number of <span style = 'color:#08a0e9;'>person's followers</span>, in millions.",
+        subtitle = "<br>Follows can be asymmetric.<br><br><span style = 'color:#dfcd00;'>Rows</span> represent the <span style = 'color:#dfcd00;'>source</span> of the follow:<br>reading the matrix per row shows who<br>the person follows.<br><br><span style = 'color:#08a0e9;'>Columns</span> represent the <span style = 'color:#08a0e9;'>target</span> of the follow:<br>read vertically to see by who among<br>the top-20 the index person in followed.<br><br>Numbers on the diagonal show the total<br>number of <span style = 'color:#08a0e9;'>person's followers</span>, in millions.",
         caption = "<br>Data: Wikipedia, Twitter | Graphic: <span style = 'color:#dfcd00;'>@ikashnitsky</span>"
     )
 
@@ -129,7 +129,7 @@ out <- last_plot()
 
 ragg::agg_png(
     "out/18-connections-twitter.png",
-    width = 4*300, height = 7*300,
+    width = 3.7*300, height = 6.4*300,
     background = "#444444", res = 300
 )
 out

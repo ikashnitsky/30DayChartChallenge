@@ -11,7 +11,8 @@ library(hrbrthemes)
 library(ggdark)
 library(ggtext)
 
-
+# beware, the raw dataset weights more than 0.5GB
+# thus the code will be only replicable after the load() back data
 df <- read_csv("~/data/altmertic/all-altmetric-2021-04-12.csv") %>%
     janitor::clean_names()
 
@@ -25,6 +26,9 @@ yearly <- df %>%
     summarise(mean_score = altmetric_attention_score %>% mean) %>%
     ungroup() %>%
     mutate(year = year %>% as.numeric)
+
+save(yearly, file = "dat/20-yearly-attention.rda")
+load("dat/20-yearly-attention.rda") # if replicating, reload from here
 
 yearly %>%
     ggplot(aes(year, mean_score)) +

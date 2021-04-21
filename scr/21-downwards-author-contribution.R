@@ -33,7 +33,7 @@ nauth %>%
     geom_point(aes(size = n), color = "#F5C710FF")+
     scale_size_area(max_size = 2, guide = NULL)+
     scale_x_continuous(position = "top") +
-    scale_y_percent(limits = c(0, .15), expand = c(0, 0))+
+    scale_y_percent(limits = c(0, .15001), expand = c(0, 0))+
     dark_theme_minimal(base_family =  font_rc, base_size = 14) +
     theme(
         axis.title.y = element_textbox_simple(
